@@ -3,7 +3,7 @@
 //  PlayStream
 //
 //  Created by ldm on 14-12-31.
-//  Copyright (c) 2014年 李岱锰. All rights reserved.
+//  Copyright (c) 2014年 DM. All rights reserved.
 //
 
 #import "LDMViewController.h"
@@ -18,6 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning

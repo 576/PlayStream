@@ -41,20 +41,20 @@
 		5B0CFCBC1A5359B0009042DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5B0CFCC01A5359B0009042DE /* PlayStream-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlayStream-Info.plist"; sourceTree = "<group>"; };
 		5B0CFCC21A5359B0009042DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5B0CFCC41A5359B0009042DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B0CFCC41A5359B0009042DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		5B0CFCC61A5359B0009042DE /* PlayStream-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlayStream-Prefix.pch"; sourceTree = "<group>"; };
-		5B0CFCC71A5359B0009042DE /* LDMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDMAppDelegate.h; sourceTree = "<group>"; };
-		5B0CFCC81A5359B0009042DE /* LDMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDMAppDelegate.m; sourceTree = "<group>"; };
+		5B0CFCC71A5359B0009042DE /* LDMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LDMAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		5B0CFCC81A5359B0009042DE /* LDMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LDMAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		5B0CFCCB1A5359B0009042DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		5B0CFCCE1A5359B0009042DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		5B0CFCD01A5359B0009042DE /* LDMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDMViewController.h; sourceTree = "<group>"; };
-		5B0CFCD11A5359B0009042DE /* LDMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDMViewController.m; sourceTree = "<group>"; };
+		5B0CFCD01A5359B0009042DE /* LDMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LDMViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		5B0CFCD11A5359B0009042DE /* LDMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LDMViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		5B0CFCD31A5359B0009042DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5B0CFCD91A5359B0009042DE /* PlayStreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayStreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B0CFCDA1A5359B0009042DE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5B0CFCE21A5359B0009042DE /* PlayStreamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlayStreamTests-Info.plist"; sourceTree = "<group>"; };
 		5B0CFCE41A5359B0009042DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5B0CFCE61A5359B0009042DE /* PlayStreamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayStreamTests.m; sourceTree = "<group>"; };
+		5B0CFCE61A5359B0009042DE /* PlayStreamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PlayStreamTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -471,6 +471,7 @@
 				5B0CFCEC1A5359B0009042DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B0CFCED1A5359B0009042DE /* Build configuration list for PBXNativeTarget "PlayStreamTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +480,7 @@
 				5B0CFCEF1A5359B0009042DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

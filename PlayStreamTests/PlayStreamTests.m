@@ -3,7 +3,7 @@
 //  PlayStreamTests
 //
 //  Created by ldm on 14-12-31.
-//  Copyright (c) 2014年 李岱锰. All rights reserved.
+//  Copyright (c) 2014年 DM. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
